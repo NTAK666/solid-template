@@ -1,0 +1,55 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "jsxImportSource": "solid-js",
+    "jsx": "preserve",
+    "strict": true,
+    "types": [
+      "solid-start/env",
+      "@testing-library/jest-dom"
+    ],
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": [
+        "*"
+      ],
+      "@/components/*": [
+        "components/*"
+      ],
+      "@/pages/*": [
+        "pages/*"
+      ],
+      "@/layouts/*": [
+        "layouts/*"
+      ],
+      "@/hooks/*": [
+        "hooks/*"
+      ],
+      "@/libs/*": [
+        "libs/*"
+      ],
+      "@/routes/*": [
+        "routes/*"
+      ],
+      "@/stores/*": [
+        "stores/*"
+      ],
+      "@/services/*": [
+        "services/*"
+      ],
+      "@/entities/*": [
+        "entities/*"
+      ],
+      "@/config/*": [
+        "config/*"
+      ]
+    }
+  },
+  "types": [
+    "vitest"
+  ]
+}
