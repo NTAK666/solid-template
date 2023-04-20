@@ -1,0 +1,13 @@
+{
+  "entry-client": [],
+  "index.html": [
+    {
+      "type": "script",
+      "href": "/assets/index-78d23810.js"
+    },
+    {
+      "type": "style",
+      "href": "/assets/index-7521f8be.css"
+    }
+  ]
+}
